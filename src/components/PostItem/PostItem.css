@@ -1,0 +1,14 @@
+.post_item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #737373;
+  margin: 10px;
+  padding: 1% 1% 4% 1%;
+  border-radius: 10px;
+  text-align: justify;
+}
+.post_id {
+  text-align: end;
+  font-size: small;
+}
