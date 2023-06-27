@@ -18,14 +18,14 @@ const getDataByUrl = (url, name) => {
   });
 };
 
-export const fetchUsers = getDataByUrl(USERS_API, "users/fetchUsers");
+export const fetchUsers = getDataByUrl(USERS_API, "app/fetchUsers");
 export const fetchAlbumsByUserId = getDataByUrl(
   ALBUMS_API,
-  "users/fetchAlbumsByUserId"
+  "app/fetchAlbumsByUserId"
 );
 export const fetchPostsByUserId = getDataByUrl(
   POSTS_API,
-  "users/fetchPostsByUserId"
+  "app/fetchPostsByUserId"
 );
 
 const setError = (state, action) => {
